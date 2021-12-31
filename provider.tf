@@ -1,10 +1,12 @@
+
 terraform {
   required_providers {
     inwx = {
-      source = "terraform.local/inwx/inwx"
+      source = "registry.terraform.io/ofzhur/inwx"
     }
   }
 }
+
 
 provider "inwx" {
   username = var.inwx_username
